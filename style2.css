@@ -1,0 +1,118 @@
+body {
+	background-image: url('cool-background.png');
+	margin: 0 auto;
+}
+
+.container {
+	margin: auto 0;
+	border: auto 0;
+}
+
+.excep {
+	border-color: rgba(220,220,220,0.5);
+    border-width: 3px;
+    max-width: 100%;
+}
+
+.navbar-light .navbar-toggler-icon
+{
+	background-image: url('menu.png');
+}
+
+.navbar-light .navbar-toggler {
+    border-color: violet;
+}
+
+.bg-light {
+	background-color: black!important;
+}
+.navbar-light .navbar-brand {
+    color: violet;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: violet;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: violet;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: violet;
+}
+
+.diff {
+	padding: 0em 7em;
+	border-color: white;
+}
+
+.btn-outline-success {
+    color: violet;
+    border-color: violet;
+}
+
+.btn-outline-success:hover {
+    color: white;
+    background-color: violet;
+    border-color: violet;
+}
+
+.btn-outline-success:active {
+    color: white;
+    background-color: violet;
+    border-color: violet;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e);
+}
+
+.btnt {
+	padding: 13px 20px;
+	border-radius: 50px;
+	color: white;
+	background-color: violet;
+	border-color: violet;
+}
+
+.btnt:hover {
+	padding: 15px 23px;
+	border-radius: 50px;
+	color: violet;
+	background-color: black;
+	border-color: black;
+}
+
+h1 {
+	font-family: 'Luckiest Guy', cursive;
+}
+
+hr{
+	border-color: violet;
+    border-width: 3px;
+    max-width: 65px;
+}
+
+img {
+	width: 450px;
+	height:300px;
+	margin: 10px;
+	transition: all 0.5s;
+	width: 100%;
+	margin: 2px;
+    border: 2px solid black;
+}
+
+img:hover { /*CSS3*/
+	transform: scale(1.02);
+}
+
+p {
+	background-color: white;
+}
+
+.ok {
+	color :white;
+	background-color: black;
+}
